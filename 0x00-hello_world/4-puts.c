@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /*
-* A C program that prints exactly "Programming is like building a multilingual puzzle"
-* followed by a new line.
-* It uses the puts function.
-* If sucessful the program end with the value 0
+* A C program that prints the string,
+* "Programming is like building a multilingual puzzle."
+* The program uses the puts function
+* It terminates with a 0 if successful.
 */
 
 int main(void)
@@ -12,5 +12,7 @@ int main(void)
 
 	char msg[] = "\"Programming is like building a multilingual puzzle";
 	puts(msg);
+	
 	return (0);
+	
 }
