@@ -1,18 +1,14 @@
 #include <stdio.h>
 
 /*
-* A C program that prints the string,
-* "Programming is like building a multilingual puzzle."
-* The program uses the puts function
-* It terminates with a 0 if successful.
-*/
+ * A C program that prints the string,
+ * "Programming is like building a multilingual puzzle."
+ * The program uses the puts function
+ * It terminates with a 0 if successful.
+ */
 
 int main(void)
 {
-
-	char msg[] = "\"Programming is like building a multilingual puzzle";
-	puts(msg);
-	
-	return (0);
-	
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);	
 }
